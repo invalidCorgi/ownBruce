@@ -1,0 +1,11 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml" fx:controller="ownBruce.MainStageController">
+    <children>
+        <javafx.scene.canvas.Canvas fx:id="map" layoutX="0" layoutY="0"   width="800" height="600" />
+    </children>
+</AnchorPane>
